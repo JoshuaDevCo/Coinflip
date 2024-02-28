@@ -33,11 +33,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "914c7b7e087d081337467ed1824d282f",
-    "url": "/static/media/backgroundImage.914c7b7e.jpg"
+    "url": "/static/media/backgroundImage.914c7b7e.png"
   },
   {
     "revision": "53ccd9819ed706717d6de74228ca5bfb",
-    "url": "/static/media/head.53ccd981.png"
+    "url": "/static/media/head.png"
   },
   {
     "revision": "370f4d14c0ffa8dbd77185816e980214",
@@ -61,6 +61,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "bc77fba8b3f17d01c86e72d2f7ac5bf4",
-    "url": "/static/media/tail.bc77fba8.png"
+    "url": "/static/media/tail.png"
   }
 ]);

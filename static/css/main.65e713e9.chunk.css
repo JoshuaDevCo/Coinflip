@@ -1,2 +1,140 @@
-body,html{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}code{font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace}*{box-sizing:border-box}.coin{height:160px;position:relative;margin:20px auto;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}.coin,.coin img{width:160px}.heads,.tails{position:absolute;width:100%;height:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden}.tails{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}@-webkit-keyframes spin-tails{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}to{-webkit-transform:rotateY(1980deg);transform:rotateY(1980deg)}}@keyframes spin-tails{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}to{-webkit-transform:rotateY(1980deg);transform:rotateY(1980deg)}}@-webkit-keyframes spin-heads{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}to{-webkit-transform:rotateY(6turn);transform:rotateY(6turn)}}@keyframes spin-heads{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}to{-webkit-transform:rotateY(6turn);transform:rotateY(6turn)}}.nav-title{display:flex}@media screen and (max-width:992px){.nav-title{display:none!important}}.maincard-content{margin-top:50px}.connect-wallet{padding:10px 14px;background:#0e76fd;font-weight:700;cursor:pointer;font-size:100%;color:#fff;border-radius:15px;margin-right:25px}.connect-wallet:hover{background:#1060f3}.img-style{margin-left:1.2rem;height:3.5rem;width:3rem;pointer-events:none}
+body,
+html {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+* {
+    box-sizing: border-box
+}
+
+.coin {
+    height: 160px;
+    position: relative;
+    margin: 20px auto;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d
+}
+
+.coin,
+.coin img {
+    width: 160px
+}
+
+.heads,
+.tails {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.tails {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg)
+}
+
+@-webkit-keyframes spin-tails {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0)
+    }
+
+    to {
+        -webkit-transform: rotateY(1980deg);
+        transform: rotateY(1980deg)
+    }
+}
+
+@keyframes spin-tails {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0)
+    }
+
+    to {
+        -webkit-transform: rotateY(1980deg);
+        transform: rotateY(1980deg)
+    }
+}
+
+@-webkit-keyframes spin-heads {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0)
+    }
+
+    to {
+        -webkit-transform: rotateY(6turn);
+        transform: rotateY(6turn)
+    }
+}
+
+@keyframes spin-heads {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0)
+    }
+
+    to {
+        -webkit-transform: rotateY(6turn);
+        transform: rotateY(6turn)
+    }
+}
+
+.nav-title {
+    display: flex
+}
+
+@media screen and (max-width:992px) {
+    .nav-title {
+        display: none !important
+    }
+}
+
+.maincard-content {
+    margin-top: 50px
+}
+
+.connect-wallet {
+    padding: 10px 14px;
+    background: #0e76fd;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 50%;
+    color: #fff;
+    border-radius: 15px;
+    margin-right: 25px
+}
+
+.connect-wallet:hover {
+    background: #1060f3
+}
+
+.img-style {
+    margin-left: 1.2rem;
+    height: 3.5rem;
+    width: 3rem;
+    pointer-events: none
+}
+.btn-group {
+    border: 2px solid #cb4e03;
+    border-radius: 10px;
+    background: #cb4e03;
+    background: linear-gradient(90deg,#cb4e03,rgba(238,169,0,.9794511554621849) 43%,#fff100);
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    background-image: url("../media/backgroundImage.914c7b7e.png")!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+  }
 /*# sourceMappingURL=main.65e713e9.chunk.css.map */
