@@ -495,7 +495,7 @@
         I = v.a.img(
           o ||
             (o = Object(b.a)([
-              "\n    margin-left: 1.2rem;\n    height: 3.5rem;\n    width: 3.rem;\n    pointer-events: none;\n",
+              "\n    margin-left: 1.2rem;\n    height: 5.5rem;\n    width: 5.rem;\n    pointer-events: none;\n",
             ]))
         ),
         z = v.a.div(
@@ -585,7 +585,7 @@
                 d.a.createElement(
                   z,
                   { className: "nav-title" },
-                  " Coinflip dApp "
+                  "  "
                 )
               ),
               d.a.createElement(
@@ -1419,7 +1419,7 @@
           d.a.createElement(
             Ne,
             null,
-            d.a.createElement(Be, null, d.a.createElement(Me, null, "Wager")),
+            d.a.createElement(Be, null, d.a.createElement(Me, null, "Bet Amount")),
             d.a.createElement(
               _e,
               null,
@@ -2560,10 +2560,10 @@
       e.exports = n.p + "static/media/logo.370f4d14.png";
     },
     25: function (e, t, n) {
-      e.exports = n.p + "static/media/head.png";
+      e.exports = n.p + "static/media/head.53ccd981.png";
     },
     26: function (e, t, n) {
-      e.exports = n.p + "static/media/tail.png";
+      e.exports = n.p + "static/media/tail.bc77fba8.png";
     },
     29: function (e, t, n) {
       e.exports = n(122);
