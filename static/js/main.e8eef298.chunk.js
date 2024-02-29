@@ -477,7 +477,7 @@
         W = v.a.nav(
           r ||
             (r = Object(b.a)([
-              "\n    border-bottom: 1px solid black;\n    height: 4rem;\n",
+              "\n    height: 4rem;\n",
             ]))
         ),
         P = v.a.div(
@@ -1067,7 +1067,7 @@
         be = v.a.div(
           K ||
             (K = Object(b.a)([
-              "\n    position: relative;\n    top: 2rem;\n    border: 1px solid black;\n    border-radius: 1rem;\n    width 23rem;\n    height: 18rem;\n    margin: auto;\n",
+              "\n    position: relative;\n    top: 2rem;\n    border: 1px solid black;\n    border-radius: 1rem;\n       height: 18rem;\n    margin-left: 20px;\n  margin-right:20px;\n",
             ]))
         ),
         ve = v.a.div(
@@ -1369,7 +1369,7 @@
         Ne = v.a.div(
           ce ||
             (ce = Object(b.a)([
-              "\n    position: relative;\n    top: 1rem;\n    border: 1px solid black;\n    border-radius: 1rem;\n    width 23rem;\n    height: 5.4rem;\n    margin: auto;\n",
+              "\n    position: relative;\n    top: 1rem;\n    border: 1px solid black;\n    border-radius: 1rem;\n      height: 5.4rem;\n    margin-left: 20px;\n  margin-right:20px;\n",
             ]))
         ),
         Be = v.a.div(
@@ -1443,7 +1443,7 @@
         Ge = v.a.button(
           Ee ||
             (Ee = Object(b.a)([
-              "\n    position: relative;\n    display: block;\n    margin:auto;\n    top: 6rem;\n    background: linear-gradient(90deg,#cb4e03,rgba(238,169,0,.9794511554621849) 43%,#fff100);\n    border-radius: 1rem;\n    width 23rem;\n    height: 5.4rem;\n    cursor: pointer;\n    outline: none;\n border: 2px solid;\n border-color: rgba(253,143,0,.52) rgba(196,143,0,.52) rgba(251,255,7,.52) rgba(231,197,0,.52);\n\n    :hover {\n box-shadow: 0 0 14px red;\n } \n",
+              "\n    position: relative;\n width: 100%;\n   display: block;\n    margin:auto;\n    top: 6rem;\n    background: linear-gradient(90deg,#cb4e03,rgba(238,169,0,.9794511554621849) 43%,#fff100);\n    border-radius: 1rem;\n        height: 5.4rem;\n    cursor: pointer;\n    outline: none;\n border: 2px solid;\n border-color: rgba(253,143,0,.52) rgba(196,143,0,.52) rgba(251,255,7,.52) rgba(231,197,0,.52);\n\n    :hover {\n box-shadow: 0 0 14px red;\n } \n",
             ]))
         ),
         Ie = v.a.div(
