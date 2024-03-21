@@ -133,8 +133,10 @@ code {
     align-items: center;
   }
   body {
-    background-image: url("../media/backgroundImage.914c7b7e.jpg")!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
+    background-image: url("../media/bg.jpg")!important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important; /* Adjusts the background image to cover the entire body without using cover */
+    min-height: 100vh; /* Ensures the body covers the full viewport height */
+    background-attachment: fixed; /* Optional: makes the background image fixed during scroll */
   }
 /*# sourceMappingURL=main.65e713e9.chunk.css.map */

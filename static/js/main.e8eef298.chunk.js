@@ -2123,7 +2123,7 @@
                               : "0x38" === t
                               ? "BASE"
                               : "0x2105" === t
-                              ? "Fantom Testnet"
+                              ? ""
                               : "N/A"
                           );
                       case 4:
