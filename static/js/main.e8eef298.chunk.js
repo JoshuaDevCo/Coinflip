@@ -623,19 +623,27 @@
         V = Object(v.a)(Q)(
           F || (F = Object(b.a)(["\n    margin-top: rem;\n"]))
         );
-      function J() {
-        var e = _().contractBalance;
-        return d.a.createElement(
-          d.a.Fragment,
-          null,
-          d.a.createElement(
-            Q,
+        function J() {
+          var e = _().contractBalance;
+          var halfPot = parseFloat(e) / 2; // Calculate half of the pot
+          return d.a.createElement(
+            d.a.Fragment,
             null,
-            "".concat(parseFloat(e).toFixed(3), " WETH")
-          ),
-          d.a.createElement(V, null, "Available to Win")
-        );
+            d.a.createElement(
+              Q,
+              null,
+              "".concat(parseFloat(e).toFixed(3), " WETH in pot")
+            ),
+            // Add a new row for the half pot win beneath the existing row
+            d.a.createElement(
+              Q,
+              null,
+              "MAX Bet Amount: ".concat(halfPot.toFixed(3), " WETH")
+            ),
+            d.a.createElement(V, null, "")
+          );
       }
+      
       var K,
         Z,
         $,
@@ -2123,7 +2131,7 @@
                               : "0x38" === t
                               ? "BASE"
                               : "0x2105" === t
-                              ? ""
+                              ? "BASE"
                               : "N/A"
                           );
                       case 4:
