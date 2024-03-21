@@ -625,7 +625,11 @@
         );
         function J() {
           var e = _().contractBalance;
+          console.log("Contract Balance:", e); // Log the fetched contract balance
+      
           var halfPot = parseFloat(e) / 2; // Calculate half of the pot
+          console.log("Half Pot:", halfPot); // Log the calculated half pot
+      
           return d.a.createElement(
             d.a.Fragment,
             null,
@@ -638,11 +642,13 @@
             d.a.createElement(
               Q,
               null,
-              "MAX Bet Amount: ".concat(halfPot.toFixed(3), " WETH")
+              "You can only max bet 50% of total pot: ".concat(halfPot.toFixed(3), " WETH")
             ),
             d.a.createElement(V, null, "")
           );
       }
+      
+      
       
       var K,
         Z,
