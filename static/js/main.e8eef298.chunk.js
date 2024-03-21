@@ -617,7 +617,7 @@
       var Q = v.a.div(
           S ||
             (S = Object(b.a)([
-              "\n    font-size: 1.7rem;\n    display: flex;\n    justify-content: center;\n color: rgb(255, 156, 25);\n   ",
+              "\n    font-size: 1.7rem;\n    display: flex;\n    justify-content: center;\n color: #e0e0e0;\n   ",
             ]))
         ),
         V = Object(v.a)(Q)(
@@ -1073,19 +1073,19 @@
         ve = v.a.div(
           Z ||
             (Z = Object(b.a)([
-              "\n    color: black;\n    font-size: 1rem;\n font-weight: 600;\n   display: flex;\n    justify-content: space-around;\n    margin-top: 2rem;\n    margin-left: 1rem;\n    margin-right: 1.8rem;\n",
+              "\n    color: #e0e0e0;\n    font-size: 1rem;\n font-weight: 600;\n   display: flex;\n    justify-content: space-around;\n    margin-top: 2rem;\n    margin-left: 1rem;\n    margin-right: 1.8rem;\n",
             ]))
         ),
         ge = v.a.button(
           $ ||
             ($ = Object(b.a)([
-              "\n    background-color: #5D7B93;\n    padding: 7px 5px;\n    font-size: 15px;\n    min-width: 120px;\n    border-radius: 10px;\n    font-weight: 700;\n    color: black;\n    border: none;\n    cursor: pointer;\n    outline: none;\n\n    :hover {\n        background-color: rgb(255, 156, 25);\n    }\n    ",
+              "\n    background-color: #5D7B93;\n    padding: 7px 5px;\n    font-size: 15px;\n    min-width: 120px;\n    border-radius: 10px;\n    font-weight: 700;\n    color: black;\n    border: none;\n    cursor: pointer;\n    outline: none;\n\n    :hover {\n        background-color: #f9a825;\n    }\n    ",
             ]))
         ),
         we = Object(v.a)(ge)(
           q ||
             (q = Object(b.a)([
-              "\n    background-color: rgb(255, 156, 25);\n\n    :hover {\n        background-color: #5D7B93;\n    }\n",
+              "\n    background-color: #e0e0e0,\n\n    :hover {\n        background-color: #5D7B93;\n    }\n",
             ]))
         ),
         xe = v.a.div(
@@ -1386,25 +1386,25 @@
         ),
         Me = v.a.div(
           le ||
-            (le = Object(b.a)(["\n    font-size: 1rem;\n    color: black;\n font-weight: 800;\n"]))
+            (le = Object(b.a)(["\n    font-size: 1rem;\n    color: #e0e0e0;\n font-weight: 800;\n"]))
         ),
         Se = v.a.input(
           pe ||
             (pe = Object(b.a)([
-              "\n    border-top-style: hidden;\n    border-right-style: hidden;\n    border-left-style: hidden;\n    border-bottom-style: hidden;\n    outline: none;\n    background-color: transparent;\n    width: 10rem;\n    font-size: 2rem;\n    color: black;\n font-weight: 600;\n",
+              "\n    border-top-style: hidden;\n    border-right-style: hidden;\n    border-left-style: hidden;\n    border-bottom-style: hidden;\n    outline: none;\n    background-color: transparent;\n    width: 10rem;\n    font-size: 2rem;\n    color: #e0e0e0;\n font-weight: 600;\n",
             ]))
         ),
         Fe =
           (v.a.div(
             fe ||
               (fe = Object(b.a)([
-                "\n    font-size: 1rem;\n    color: black;\n font-weight: 600;\n",
+                "\n    font-size: 1rem;\n    color: #e0e0e0;\n font-weight: 600;\n",
               ]))
           ),
           v.a.div(
             de ||
               (de = Object(b.a)([
-                "\n    display: flex;\n    align-self:\n    margin-right: 1rem;\n    font-size: 2rem;\n    color: black;\n font-weight: 600;\n",
+                "\n    display: flex;\n    align-self:\n    margin-right: 1rem;\n    font-size: 2rem;\n    color: #e0e0e0;\n font-weight: 600;\n",
               ]))
           ));
       function We(e) {
@@ -1443,13 +1443,13 @@
         Ge = v.a.button(
           Ee ||
             (Ee = Object(b.a)([
-              "\n    position: relative;\n width: 100%;\n   display: block;\n    margin:auto;\n    top: 6rem;\n    background: linear-gradient(90deg,#cb4e03,rgba(238,169,0,.9794511554621849) 43%,#fff100);\n    border-radius: 1rem;\n        height: 5.4rem;\n    cursor: pointer;\n    outline: none;\n border: 2px solid;\n border-color: rgba(253,143,0,.52) rgba(196,143,0,.52) rgba(251,255,7,.52) rgba(231,197,0,.52);\n\n    :hover {\n box-shadow: 0 0 14px red;\n } \n",
+              "\n    position: relative;\n width: 100%;\n   display: block;\n    margin:auto;\n    top: 6rem;\n    background: linear-gradient(90deg,rgb(38, 70, 83), rgb(38, 70, 83) 43%, rgb(180, 180, 181));\n    border-radius: 1rem;\n        height: 5.4rem;\n    cursor: pointer;\n    outline: none;\n border: 2px solid;\n border-color: #2d2d2d;\n\n    :hover {\n box-shadow: 0 0 14px #f9a825;\n } \n",
             ]))
         ),
         Ie = v.a.div(
           ke ||
             (ke = Object(b.a)([
-              "\n    position: relative;\n    top: 4rem;\n    font-size: 1rem;\n    margin-left: 2rem;\n    color: black;\n font-weight: 600;\n",
+              "\n    position: relative;\n    top: 4rem;\n    font-size: 1rem;\n    margin-left: 2rem;\n    color: #e0e0e0;\n font-weight: 600;\n",
             ]))
         ),
         ze = Object(v.a)(Ie)(
@@ -1464,7 +1464,7 @@
         De = v.a.div(
           Ce ||
             (Ce = Object(b.a)([
-              "\n    font-size: 1.5rem;\n    color: black;\n    text-shadow: .6px .6px pink;\n",
+              "\n    font-size: 1.5rem;\n    color: #e0e0e0;\n    text-shadow: .6px .6px pink;\n",
             ]))
         ),
         Ye = v.a.div(
@@ -1508,7 +1508,7 @@
         et = v.a.div(
           Pe ||
             (Pe = Object(b.a)([
-              "\n    position: relative;\n    // height: 29.4rem;\n    width: 380px;\n    background: linear-gradient(90deg,#cb4e03,rgba(238,169,0,.9794511554621849) 43%,#fff100);\n    border: 2px solid;\n border-color: rgba(253,143,0,.52) rgba(196,143,0,.52) rgba(251,255,7,.52) rgba(231,197,0,.52);\n    border-radius: 1.5rem;\n    margin auto;\n    margin-top: .5rem;\n :hover {\n   box-shadow: 0 0 14px red;     \n   }\n",
+              "\n    position: relative;\n    // height: 29.4rem;\n    width: 380px;\n    background: linear-gradient(90deg,rgb(38, 70, 83), rgb(38, 70, 83) 43%, rgb(180, 180, 181));\n    border: 2px solid;\n border-color: #2d2d2d;\n    border-radius: 1.5rem;\n    margin auto;\n    margin-top: .5rem;\n :hover {\n   box-shadow: 0 0 14px #f9a825;     \n   }\n",
             ]))
         );
       function tt(e) {

@@ -125,11 +125,11 @@ code {
     pointer-events: none
 }
 .btn-group {
-    border: 2px solid #cb4e03;
+    border: 2px solid rgb(45, 45, 45);
     border-radius: 10px;
     background: #cb4e03;
-    background: linear-gradient(90deg,#cb4e03,rgba(238,169,0,.9794511554621849) 43%,#fff100);
-    justify-content: center;
+    background: linear-gradient(90deg, rgb(38, 70, 83), rgb(38, 70, 83) 43%, rgb(180, 180, 181));
+        justify-content: center;
     align-items: center;
   }
   body {
